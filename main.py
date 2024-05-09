@@ -2,7 +2,8 @@ import random
 
 display_messages = [
     'Seja Feliz :)',
-    'Fique tranquilo, tudo vai acabar bem!'
+    'Fique tranquilo, tudo vai acabar bem!',
+    'ola mundo! estou aqui!'
 ]
 
 while True:
@@ -11,3 +12,5 @@ while True:
         mensagem = random.choice(display_messages)
         print(mensagem)
         print()
+
+02273551920248060001
