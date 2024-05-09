@@ -1,10 +1,5 @@
 import random
-
-display_messages = [
-    'Seja Feliz :)',
-    'Fique tranquilo, tudo vai acabar bem!',
-    'ola mundo! estou aqui!'
-]
+from messages import display_messages
 
 while True:
     resposta = input('Deseja Receber um conselho? S/N: ')
@@ -12,5 +7,3 @@ while True:
         mensagem = random.choice(display_messages)
         print(mensagem)
         print()
-
-02273551920248060001
